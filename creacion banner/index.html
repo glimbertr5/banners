@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Sitio web de maquetación con DIVS">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Diseño Web">
+    <meta name="author" content="Tu nombre">
+
+    <title>Maquetación con DIVS</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css">
+
+    <link rel="stylesheet" href="estilos.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+<header>
+    <div class="container">
+
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo_carreras.svg" alt="logo">
+            </a>
+        </div>
+
+        <nav>
+            <ul class="nav-menu">
+
+                <li>
+                    <a href="index.html">
+                        <i class="fi fi-sr-home"></i> Inicio
+                    </a>
+                </li>
+
+                <li class="dropdown">
+
+                    <a href="#">
+                        <i class="fi fi-sr-customer-care"></i> Servicios ▾
+                    </a>
+
+                    <ul class="dropdown-content">
+                        <li><a href="#">Diseño Digital</a></li>
+                        <li><a href="#">Páginas Web</a></li>
+                        <li><a href="#">Mantenimiento</a></li>
+                    </ul>
+
+                </li>
+
+                <li><a href="#">Proyectos</a></li>
+                <li><a href="#">Contacto</a></li>
+
+                <li>
+                    <a href="login.html" class="btn-login">Login</a>
+                </li>
+
+            </ul>
+        </nav>
+
+    </div>
+</header>
+
+<div class="swiper mainBanner">
+    <div class="swiper-wrapper">
+        
+        <!-- Slide 1 -->
+        <div class="swiper-slide">
+            <a href="#" class="banner-link">
+                <img src="banner/carro1.webp" alt="Oferta 1">
+                <div class="banner-content">
+                    <div class="text-box">
+                        <h1>Carros inteligentes</h1>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="swiper-slide">
+            <a href="#" class="banner-link">
+                <img src="banner/carros2.jpg" alt="Oferta 2">
+                <div class="banner-content">
+                    <div class="text-box">
+                        <h1>Mejores diseños</h1>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <!-- Slide 3 -->
+        <div class="swiper-slide">
+            <a href="#" class="banner-link">
+                <img src="banner/carro3.jpg" alt="Oferta 2">
+                <div class="banner-content">
+                    <div class="text-box">
+                        <h1>Mejores motores</h1>
+                    </div>
+                </div>
+            </a>
+        </div>
+          
+        <!-- Slide 4 -->
+        <div class="swiper-slide">
+            <a href="#" class="banner-link">
+                <img src="banner/carro.png" alt="Oferta 1">
+                <div class="banner-content">
+                    <div class="text-box">
+                        <h1>Mejores Mustang</h1>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Slide 5 -->
+        <div class="swiper-slide">
+            <a href="#" class="banner-link">
+                <img src="banner/carro5.jpg" alt="Oferta 5">
+                <div class="banner-content">
+                    <div class="text-box">
+                        <h1>Datos sobre carros</h1>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <!-- Slide 6 -->
+        <div class="swiper-slide">
+            <a href="#" class="banner-link">
+                <img src="banner/carro6.jpg" alt="Oferta 6">
+                <div class="banner-content">
+                    <div class="text-box">
+                        <h1>V8 y más</h1>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    </div>
+
+    <!-- Controles -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+</div>
+        
+
+<main class="container">
+
+    <h1 style="font-size:3rem; margin-bottom:20px; margin-top:40px;">
+        La grandeza de los motores
+    </h1>
+
+    <p style="font-size:1.2rem; max-width:700px; margin-bottom:50px; line-height:1.8;">
+        La grandeza de los motores representa la evolución de la tecnología automotriz,
+        combinando potencia, velocidad y diseño en máquinas capaces de transformar
+        la experiencia de conducción.
+    </p>
+
+    <!-- SECCIÓN 1 -->
+
+    <section class="cars-section">
+
+        <h2 class="titulo-seccion">
+            DATOS SOBRE LOS VEHÍCULOS
+        </h2>
+
+        <div class="cars-container">
+
+            <div class="car-box" style="width: 550px; height:380px;">
+
+                <img src="img/primer brun brun.jpg" alt="El primer automóvil de la historia">
+
+                <h3>El primer automóvil de la historia</h3>
+
+                <p>
+                   El primer coche considerado como “automóvil moderno” fue el Benz Patent-Motorwagen, creado por Karl Benz en 1886 en Alemania.
+                </p>
+
+            </div>
+
+            <div class="car-box" style="width:550px; height:380px;">
+
+                <img src="img/auto caro.jpg" alt="El coche más caro del mundo">
+
+                <h3>El coche más caro del mundo</h3>
+
+                <p>
+                   El Mercedes-Benz 300 SLR Uhlenhaut Coupé fue vendido por 135 millones de euros en una subasta.
+                   Es un modelo de los años 50 y solo existen 2 unidades en el mundo.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SECCIÓN 2 -->
+
+    <section class="carro-section">
+
+        <h2 class="titulo-seccion">
+            ICÓNICOS DE LA AUTOMOTRIZ
+        </h2>
+
+        <div class="cars-container">
+
+            <div class="car-box" style="width:380px; height:380px;">
+
+                <img src="img/ferrari.jpg" alt="Ferrari">
+
+                <h3>Ferrari F8</h3>
+
+                <p>
+                    Superdeportivo italiano con gran velocidad.
+                </p>
+
+            </div>
+
+            <div class="car-box" style="width:380px; height:380px;">
+
+                <video src="video/gtr.mp4" alt="GTR" controls width="350" height="200"></video>
+
+                <h3>Nissan GTR</h3>
+
+                <p>
+                    Potencia japonesa y tecnología avanzada.
+                </p>
+
+            </div>
+
+            <div class="car-box" style="width:380px; height:380px;">
+
+                <img src="img/lambo.jpg" alt="Lamborghini">
+
+                <h3>Lamborghini gallardo</h3>
+
+                <p>
+                    superdeportivo icónico con motor V10, conocido como el "Baby Lambo" 
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+
+    <div class="container">
+
+        <div class="footer-grid">
+
+            <div class="footer-col">
+
+                <h4>Contacto</h4>
+
+                <p>📍 Villahermosa, Tabasco</p>
+                <p>📞 +52 993 123 4567</p>
+                <p>✉️ contacto@gmail.com</p>
+
+            </div>
+
+            <div class="footer-col">
+
+                <h4>Ubicación</h4>
+
+                <p>México</p>
+
+                <a href="#">Ver ubicación</a>
+
+            </div>
+
+            <div class="footer-col">
+
+                <h4>Enlaces rápidos</h4>
+
+                <ul>
+                    <li><a href="#">Soporte</a></li>
+                    <li><a href="#">Privacidad</a></li>
+                    <li><a href="#">Ayuda</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2026 Nombre del alumno. Todos los derechos reservados.
+        </div>
+
+    </div>
+
+</footer>
+
+<script src="script.js"></script>
+<script src="login1.js"></script>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+window.addEventListener("load", () => {
+
+    const swiper = new Swiper(".mainBanner", {
+        loop: true,
+
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+
+        speed: 800,
+    });
+
+});
+</script>
+
+</body>
+</html>
